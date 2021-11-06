@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tarea 6</title>
+	<link rel="stylesheet" href="tarea6-get.css">
+</head>
+<bod\y>
+
+	<form action="tarea6-get.php" method="GET">
+		
+		<label for="nombre">Ingresa aqui tu nombre...</label>
+		<input type="text" name="nombre" id="nombre" placeholder="nombre" required class="input" minlength="3" maxlength="24">
+
+		<label for="apellido">Ingresa aqui tu apellido...</label>
+		<input type="text" name="apellido" id="apellido" placeholder="apellido" required class="input" minlength="2" maxlength="24">
+
+		<div>	
+			<label for="edad">Ingresa aqui tu edad...</label>
+			<input type="number" name="edad" id="edad" class="input edad" required min="1" max="120">
+		</div>
+		<input type="submit" value="Enviar" name="enviar" >
+
+	</form>
+	
+</body>
+</html>
